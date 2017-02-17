@@ -51,8 +51,8 @@
 	const { rooms, url } = window.__autocomplete_data;
 	
 	ReactDOM.render(React.createElement(Autocomplete, {
-	    options: rooms,
-	    url: url }), document.getElementById('autocomplete'));
+	  options: rooms,
+	  url: url }), document.getElementById('root'));
 
 /***/ },
 /* 1 */
